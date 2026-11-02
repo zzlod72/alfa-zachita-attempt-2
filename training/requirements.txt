@@ -1,0 +1,12 @@
+# Python 3.12. Версии закреплены для воспроизводимости:
+# модель сохраняется через joblib и загружается той же версией библиотек.
+numpy==2.2.1
+scipy==1.15.1
+scikit-learn==1.6.1
+joblib==1.4.2
+pandas==2.2.3
+pyarrow==18.1.0
+soundfile==0.12.1
+# Загрузка архивов RuASD с Hugging Face (хранилище Xet).
+huggingface_hub>=0.32
+hf_xet>=1.1
